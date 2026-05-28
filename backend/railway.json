@@ -3,7 +3,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "gunicorn breathe.wsgi --bind 0.0.0.0:$PORT",
+    "startCommand": "python manage.py migrate && python manage.py seed_data && gunicorn breathe.wsgi --bind 0.0.0.0:$PORT",
     "restartPolicyType": "ON_FAILURE"
   }
 }
