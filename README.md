@@ -2,11 +2,6 @@
 
 A Django REST + React prototype for ingesting, normalizing, and reviewing ESG activity data from SAP, utility portals, and corporate travel platforms.
 
-## Live Demo
-
-- **Frontend**: https://genuine-zabaione-809c05.netlify.app
-- **API**: https://breatheesg-production-3ecf.up.railway.app/api/
-
 ## Demo Login
 
 - Email: analyst@demo.com
