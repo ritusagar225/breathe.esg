@@ -49,7 +49,12 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 CORS_ALLOW_ALL_ORIGINS = False
-CORS_ALLOWED_ORIGINS = os.environ.get('CORS_ALLOWED_ORIGINS', 'http://localhost:3000,https://genuine-zabaione-809c05.netlify.app').split(',')
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "https://genuine-zabaione-809c05.netlify.app",
+]
 CORS_ALLOW_CREDENTIALS = True
+
 REST_FRAMEWORK = {'DEFAULT_RENDERER_CLASSES': ['rest_framework.renderers.JSONRenderer']}
