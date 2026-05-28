@@ -4,8 +4,8 @@ A Django REST + React prototype for ingesting, normalizing, and reviewing ESG ac
 
 ## Live Demo
 
-- **Frontend**: [https://genuine-zabaione-809c05.netlify.app](https://genuine-zabaione-809c05.netlify.app)
-- **API**: [https://breatheesg-production-3ecf.up.railway.app/api/](https://breatheesg-production-3ecf.up.railway.app/api/)
+- **Frontend**: https://genuine-zabaione-809c05.netlify.app
+- **API**: https://breatheesg-production-3ecf.up.railway.app/api/
 
 ## Demo Login
 
